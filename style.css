@@ -42,6 +42,11 @@ body{
     background-color: #081b29;
     padding: 0.5rem 0.9rem;
 }
+@media screen and(max-width) {
+    .main-section{
+        flex-direction: column;
+    }
+}
 @media screen and (min-width:755px) {
     .menu-button{
         display: none;
